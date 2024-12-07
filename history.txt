@@ -1,0 +1,497 @@
+    1  ll
+    2  pwd
+    3  cd
+    4  pwd
+    5  cd desktop/
+    6  pwd
+    7  cd
+    8  pwd
+    9  cd desktop/
+   10  pwd
+   11  cd
+   12  pwd
+   13  ls -la
+   14  ll
+   15  cd desktop/
+   16  mkdir Git-30-10
+   17  pwd
+   18  cd Git-30-10
+   19  pwd
+   20  mkdir myBestProj
+   21  ll
+   22  cd myBestProj
+   23  pwd
+   24  ll
+   25  ls
+   26  ls -la
+   27  git init
+   28  ls -la
+   29  cd .git/
+   30  ls -la
+   31  cd ..
+   32  pwd
+   33  git branches
+   34  git status
+   35  touch 1.txt
+   36  git add 1.txt 
+   37  git status
+   38  git commit -m "initial commit"
+   39  pwd
+   40  git log
+   41  git status
+   42  git commit
+   43  ls -la
+   44  git config --global user.name "$amuel"
+   45  [200~
+   46  git config --global user.email "samuel.m@tutanota.com"
+   47  git commit -m "initial commit"
+   48  git config user.email "samuel.m@tutanota.com"
+   49  git commit -m "initial commit"
+   50  git config user.name "$amuel"
+   51  git commit -m "initial commit"
+   52  git config --local user.name "$amuel"
+   53  git config --local user.email "samuel.m@tutanota.com"
+   54  git commit -m "initial commit"
+   55  git config user.name "$amuel"
+   56  git config user.email "samuel.m@tutanota.com"
+   57  git config -l
+   58  git config user.name "Samuel"
+   59  git config -l
+   60  git commit -m "initial commit"
+   61  git log
+   62  git status
+   63  nano 1.txt
+   64  git status
+   65  touch 2.txt
+   66  ls -la
+   67  git add 2.txt
+   68  git status
+   69  nano 2.txt
+   70  nano 2.txt
+   71  git status
+   72  cat 1.txt
+   73  cat 2.txt
+   74  git status
+   75  git commit -m "added file 2.txt and edited file 1.txt"
+   76  git log
+   77  git status
+   78  echo "1212">>1.txt
+   79  cat 1.txt
+   80  git status
+   81  git add 1.txt
+   82  git commit
+   83  git status
+   84  cat 1.txt
+   85  git config --global core.editor "notepad++"
+   86  git commit
+   87  git config --global core.editor "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\notepad++"
+   88  git commit
+   89  git config --global core.editor "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\notepad++.exe"
+   90  git commit
+   91  git config --global core.editor "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\notepad++.exe
+   92  git config --global core.editor "C:\Program Files\Notepad++\Notepad++.exe"
+   93  git status
+   94  exit
+   95  git config --global core.editor "C:\Program Files\Notepad++\Notepad++.exe"
+   96  git commit
+   97  git log
+   98  git reflog
+   99  git branch
+  100  git branch new_branch
+  101  git branch
+  102  git checkout new_branch
+  103  git log
+  104  git status
+  105  git checkout master
+  106  git log
+  107  git status
+  108  git commit -am "changes"
+  109  git log
+  110  git checkout new_branch
+  111  git log
+  112  notepad new.txt
+  113  git log
+  114  git status
+  115  git add new.txt
+  116  cat new.txt
+  117  git commit -m "new created file"
+  118  git status
+  119  git log
+  120  git log --oneline --graph
+  121  git checkout master
+  122  git log --oneline --graph
+  123  git log
+  124  git checkout new_branch
+  125  git status
+  126  git log
+  127  git log --oneline --graph
+  128  git checkout master
+  129  git log --oneline --graph
+  130  git checkout new_branch
+  131  git log --oneline --graph
+  132  echo "set">>new.txt
+  133  git commit -m "new sec"
+  134  git commit -am "new sec"
+  135  git log --oneline --graph
+  136  git log
+  137  git checkout master
+  138  git log
+  139  git checkout new_branch
+  140  git log
+  141  touch "finita">>new.txt
+  142  git commit -am "new filnal"
+  143  git log
+  144  git status
+  145  echo "finita">>new.txt
+  146  git log
+  147  git status
+  148  git commit -am "new final"
+  149  git sttaus
+  150  git status
+  151  git log --oneline --graph
+  152  git checkout master
+  153  git merge new_branch
+  154  git log --oneline --graph
+  155  ll
+  156  ls -la
+  157  git branch
+  158  git branch -d new_branch
+  159  ll
+  160  ls
+  161  git branch
+  162  git log --oneline --graph
+  163  git reflog
+  164  git log
+  165  git log --oneline --graph
+  166  git branch
+  167  CLS
+  168  בךד
+  169  cls
+  170  clear
+  171  cd ..
+  172  pwpwd
+  173  pwd
+  174  mkdir lesson3
+  175  pwd
+  176  cd lesson3
+  177  pwd
+  178  clr
+  179  cls
+  180  clear
+  181  git init
+  182  git config 
+  183  git config
+  184  git config --user.name "Samuel"
+  185  git config -l
+  186  ls
+  187  ls -la
+  188  cd .
+  189  ls -a
+  190  ls -la
+  191  echo 1>1
+  192  git status
+  193  git add .
+  194  git commit
+  195  echo 2>2
+  196  git add 2
+  197  git commit -m "added 2"
+  198  git log
+  199  echo 3>3
+  200  git add 3
+  201  git commit -m "added file 3"
+  202  git sttaus
+  203  git status
+  204  git log
+  205  git log --oneline
+  206  git checkout -b newbr
+  207  sl
+  208  la
+  209  ll
+  210  ls
+  211  echo 4>4
+  212   git log
+  213  git log --oneline --graph
+  214  git add .
+  215  git commit -m "newbr added 4"
+  216  echo 4>>1
+  217  git status
+  218  git log
+  219  git log
+  220  git status
+  221  git 4>>1
+  222  echo 4>>1
+  223  git status
+  224  cat 1
+  225  echo 1>>1
+  226  echo 2>>2
+  227  echo 3>>3
+  228  echo 4>>4
+  229  ls
+  230  git inti
+  231  git init
+  232  ls
+  233  git log
+  234  ls -la
+  235  git status
+  236  git branch -M main
+  237  git branch -M master
+  238  echo 1 >> 1
+  239  git status
+  240  git add .
+  241  git commit -m "Initial"
+  242  git log
+  243  git status
+  244  echo 2 >> 2
+  245  git add 2
+  246  git commit -m "added file 2"
+  247  git log
+  248  echo 3 >> 3
+  249  git add 3
+  250  git commit -m "added file 3"
+  251  git status
+  252  git log
+  253  git reflog
+  254  git checkout -b newBr
+  255  ls
+  256  la
+  257  ll4
+  258  ll
+  259  echo 4 >> 4
+  260  git add .
+  261  git commit -m "newBr added file 4"
+  262  echo 4 >> 1
+  263  git status
+  264  git commit -am "newBr changed 1"
+  265  cat 1
+  266  git checkout master
+  267  ls
+  268  notepad 1
+  269  cat 1
+  270  git status
+  271  git commit -am "fixed file 1 by adding 2 and 3"
+  272  git log
+  273  git checkout newBr
+  274  git status
+  275  git log
+  276  echo "the end" >> 4
+  277  gti status
+  278  git status
+  279  git add 4
+  280  git commit -am "newBr edited file 4"
+  281  git log
+  282  git init
+  283  git log
+  284  ll
+  285  ls
+  286  lsa -la
+  287  ls -la
+  288  git branch -M newBr
+  289  gir log
+  290  git log
+  291  git status
+  292  git branch -M master
+  293  echo 1 >> 1
+  294  git status
+  295  git add .
+  296  git commit -m "initial commit"
+  297  git log
+  298  echo 2 >> 2
+  299  git add 2
+  300  git commit -m "added file 2"
+  301  gut status
+  302  git status
+  303  git log
+  304  echo 3 >> 3
+  305  git add 3
+  306  git commit -m "added file 3"
+  307  git status
+  308  git log
+  309  git log --oneline
+  310  git checkout -b newBr
+  311  echo 4 >> 4
+  312  git add .
+  313  git commit -m "newBr added file 4"
+  314  git log --oneline
+  315  echo 4 >> 1
+  316  git status
+  317  git commit -am "newBr added 4 to 1"
+  318  cat 1
+  319  git checkout master
+  320  git log --oneline
+  321  git log --oneline --graph
+  322  git status
+  323  git reflog
+  324  cat 1
+  325  ls -la
+  326  notepad 1
+  327  git status
+  328  g/it commit -m "fixed file 1 by adding files 2 and 3"
+  329  cat 1
+  330  git commit -m "fixed file 1 by adding files 2 and 3"
+  331  git commit -am "fixed file 1 by adding files 2 and 3"
+  332  git log
+  333  git checkout newBr
+  334  git reflog
+  335  ls
+  336  echo "the end" >> 4
+  337  git status
+  338  git commit -am "newBr added the end to file 4"
+  339  git log
+  340  git status
+  341  git reflog
+  342  git log
+  343  git checkout master
+  344  get merge newBr
+  345  git merge newBr
+  346  notepad 1
+  347  git status
+  348  git reflog
+  349  git add 1
+  350  gti status
+  351  git status
+  352  git commit -m "merge newBr"
+  353  git log --online --graph
+  354  git log --oneline --graph
+  355  git log
+  356  git log --oneline --graph
+  357  git checkout -d newBr
+  358  git checkout master
+  359  git branch -d newBr
+  360  git log --oneline --graph
+  361  ls
+  362  cat 1
+  363  git status
+  364  echo "#RT_Embedded >> Readme.md
+  365  echo "#RT_Embedded" >> Readme.md
+  366  q
+  367  clear
+  368  ""
+  369  exit
+  370  quit
+  371  git
+  372  exit
+  373  :q
+  374  /exit
+  375  /quit
+  376  echo "# RT_Embedded " >> Readme.md
+  377  git add Readme.md
+  378  git commit -m "Readme commit"
+  379  git branch -M main
+  380  git remote add origin https://github.com/SamuelM-Repo/RT_Embedded.git
+  381  git push -u origin main
+  382  cd..
+  383  cd ..
+  384  rm -r lesson3
+  385  y
+  386  y
+  387  ll
+  388  rm -r lesson3
+  389  git clone samuelhttps://github.com/SamuelM-Repo/RT_Embedded.git
+  390  git clone https://github.com/SamuelM-Repo/RT_Embedded.git
+  391  cat readme.md
+  392  ll
+  393  cd RT_Embedded
+  394  cat readme.md
+  395  git log
+  396  git branch -d main
+  397  git log
+  398  rm -r main
+  399  cd .
+  400  cd ..
+  401  git clone https://github.com/SamuelM-Repo/RT_Embedded.git
+  402  ll
+  403  cd rt_embedded
+  404  cat  README.md
+  405  echo 1 >> 1
+  406  notepad 1
+  407  git add 1
+  408  git commit -m "file 1 commit local"
+  409  git log
+  410  echo 2 >> 2
+  411  git add 2
+  412  git commit -m "added file 2"
+  413  git log
+  414  git push -u origin main
+  415  git config
+  416  git config -l
+  417  ll
+  418  cd ..
+  419  rm -r rt_embedded
+  420  y
+  421  git clone https://github.com/SamuelM-Repo/RT_Embedded.git
+  422  ll
+  423  cd rt_embedded
+  424  ls
+  425  ll
+  426  git status
+  427  git log
+  428  git reflog
+  429  git reset --hard HEAD~00c62
+  430  git reset --hard HEAD~00c6290
+  431  git reset --hard main~00c6290
+  432  git reflog
+  433  git reset --hard HEAD~68f0908
+  434  clear
+  435  git reflog
+  436  git reset --hard HEAD~0
+  437  ll
+  438  git commit
+  439  git status
+  440  git log
+  441  git reset --hard HEAD~3
+  442  git log
+  443  git reset --hard HEAD~0
+  444  git log
+  445  git reset --hard HEAD~4
+  446  git reset --hard HEAD~1
+  447  git log
+  448  ll
+  449  git remote add origin https://github.com/SamuelM-Repo/RT_Embedded.git
+  450  git push -u origin main
+  451  git push --help
+  452  llll
+  453  git log
+  454  git status
+  455  git reflog
+  456  ls -la
+  457  git clone https://github.com/SamuelM-Repo/Lesson3.git
+  458  ls -la
+  459  ll
+  460  cd Lesson3/
+  461  clear
+  462  ls -la
+  463  git log
+  464  echo 1 >> 1
+  465  git status
+  466  git add .
+  467  git commit -m "local 1"
+  468  git status
+  469  git log
+  470  git push -u origin main
+  471  ssh-keygen
+  472  cd /c/Users/samue/.ssh/
+  473  ll
+  474  ls -la
+  475  cat id_ed25519
+  476  cat id_ed25519.pub
+  477  mkdir forSSH
+  478  cd forSSH
+  479  git clone git@github.com:SamuelM-Repo/Lesson3.git
+  480  ls -la
+  481  git log
+  482  cd lesson3
+  483  ls -la
+  484  git log
+  485  echo 111 >> 111
+  486  git add 111
+  487  git commit -m "111 added"
+  488  git status
+  489  git log
+  490  git push -u origin main
+  491  git reflog
+  492  git status
+  493  git reflog
+  494  git config
+  495  git config -l
+  496  history
+  497  history >> history.txt
